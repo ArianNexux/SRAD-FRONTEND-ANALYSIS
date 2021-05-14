@@ -1,0 +1,36 @@
+.selectSwitch {
+    width: 100%;
+    padding: 15px 15px;
+    border: none;
+    outline-color: #ccc;
+    font-size: 1rem;
+    margin-top: 10px;
+    border-radius: 5px;
+    background-color: rgb(240, 240, 240);
+}
+
+.cards{
+    align-self: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: absolute;
+    width: 100%;
+}
+
+.cardConfirmed{
+    transition: "background" 0.15s ease-in-out;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 13rem;
+    width: calc(25%);
+    z-index: 10;
+}
+
+.label{
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+}

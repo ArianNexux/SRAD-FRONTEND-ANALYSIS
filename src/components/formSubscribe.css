@@ -1,0 +1,15 @@
+.links{
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+}
+
+span{
+  margin: 10px;
+}
+
+.input-top{
+  margin: 20px;
+  width:80%;
+}
